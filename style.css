@@ -1,0 +1,303 @@
+html{
+    scroll-behavior: smooth;
+}
+header{
+    z-index: 1;
+    font-family: "Nightwatcher BB";
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    background-color: rgba(255, 255, 255, 0.322);
+    height: 10vh;
+    backdrop-filter: blur(1vh);
+}
+div.banner{
+    font-size: 25px;
+    font-family: "Yuji Boku";
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+a{
+    text-decoration: none;
+    margin: 0px 10px;
+    color: black;
+    transition: all 0.25s ease;
+}
+body{
+    min-height: 100vh;
+    background-image: url("bg9.png");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+nav{
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+nav:hover a:not(:hover){
+    filter: blur(2px);
+    opacity: 0.5;
+}
+a.logo:hover{
+    transform: translateX(25px)
+}
+div.The{
+    position: relative;
+    top: 14vh;
+    left: 62%;
+    width: 25vh;
+    text-decoration: none;
+}
+a img.Text{
+    width: 25vh;
+    transition: all 0.25s ease;
+    display: block;
+}
+img.Text:hover{
+    scale: 110%;
+}
+section.Home{
+    background-image: url(bg1.png);
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+section.Cursed{
+    background-image: url(bg2.png);
+    background-size: cover;
+    height: 100vh;
+    border-bottom: 2px solid rgb(0, 0, 0);
+}
+section.Ritual{
+    background-image: url(bg3.png);
+    background-size: cover;
+    height: 100vh;
+    border-top: 2px solid rgb(0, 0, 0);
+}
+section.Sorcerer{
+    background-image: url(bg4.png);
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+}
+div.imgsukuna{
+    position: relative;
+    top: 40vh;
+    left: 24vh;
+    width: 30vh;
+}
+img.Cursed{
+    height: 60vh;
+}
+div.Stand{
+    position: relative;
+    left: 6vh;
+    bottom: 45vh;
+    width: 30vh;
+}
+a img.Stand{
+    width: 40vh;
+    transition: all 0.25s ease;
+    display: block;
+}
+img.Stand:hover{
+    scale: 110%;
+}
+.Text_1{
+    width: 50vh;
+    position: relative;
+    left: 84vh;
+    bottom: 80vh;
+    font-family: "Nightwatcher BB";
+    background: white;
+    border: 3px solid black;
+    padding: 0px 20px;
+}
+.Text_2{
+    width: 50vh;
+    position: relative;
+    left: 141vh;
+    bottom: 100vh;
+    font-family: "Nightwatcher BB";
+    background: white;
+    border: 3px solid black;
+    padding: 0px 20px;
+}
+.Text_3{
+    width: 50vh;
+    position: relative;
+    left: 84vh;
+    bottom: 110vh;
+    font-family: "Nightwatcher BB";
+    background: white;
+    border: 3px solid black;
+    padding: 0px 20px;
+}
+div.Text h3{
+    font-size: 5vh;
+    text-align: center;
+}
+div p{
+    font-size: 3vh;
+    text-align: justify;
+}
+.Materials{
+    font-family: "Nightwatcher BB";
+    border: 3px black solid;
+    width: 45vh;
+    position: relative;
+    left: 11vh;
+    top: 32vh;
+    background-color: white;
+}
+.Ginger_Bug{
+    font-family: "Nightwatcher BB";
+    border: 3px black solid;
+    width: 50vh;
+    position: relative;
+    left: 62vh;
+    bottom: 13vh;
+    background-color: white;
+}
+.Ginger_Beer{
+    font-family: "Nightwatcher BB";
+    border: 3px black solid;
+    width: 70vh;
+    position: relative;
+    left: 117vh;
+    bottom: 63vh;
+    background-color: white;
+}
+div.Materials h3{
+    text-align: center;
+    font-size: 4vh;
+}
+div.Materials ul{
+    font-size: 3vh;
+}
+div.Ginger_Bug h3{
+    text-align: center;
+    font-size: 4vh;
+}
+div.Ginger_Bug ol{
+    font-size: 3vh;
+    margin: 2vh;
+}
+div.Ginger_Beer h3{
+    text-align: center;
+    font-size: 4vh;
+}
+div.Ginger_Beer ol{
+    font-size: 3vh;
+}
+.pic_ing{
+    width: 90vh;
+}
+.pic_beer{
+    display: block;
+}
+img.Ing_Text{
+    width: 30vh;
+    position: absolute;
+    bottom: 164vh;
+    left: 1vh;
+}
+.pic_starter{
+    width: 90vh;
+}
+img.Starter{
+    width: 15vh;
+    position: absolute;
+    bottom: 160vh;
+    left: 108vh;
+    transform: rotate(340deg);
+}
+.pic_beer{
+    width: 90vh;
+}
+img.beer{
+    width: 15vh;
+    position: absolute;
+    bottom: 110vh;
+    left: 184vh;
+    transform: rotate(5deg);
+}
+img.Muka{
+    width: 50vh;
+    position: absolute;
+    display: flex;
+    justify-self: flex-end;
+    right: 30vh;
+    top: 35vh;
+    border-radius: 50%;
+    border: 3px solid black;
+    z-index: 1;
+    transform: rotate(5deg);
+    transition: all 0.25s ease;
+}
+img.Wheel{
+    width: 50vh;
+    position: absolute;
+    display: flex;
+    justify-self: flex-end;
+    right: 20vh;
+    top: 16vh;
+    transition: all 0.25s ease;
+}
+img.Muka:hover{
+    scale: 110%;
+    transform: rotate(10deg);
+}
+img.Wheel:hover{
+    scale: 110%;
+    transform: rotateZ(10deg);
+}
+div.socials{
+    font-family: "Nightwatcher BB";
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 25vh;
+    left: 20vh;
+    background-color: white;
+    border: 2px solid black;
+    text-align: center;
+    width: 90vh;
+    height: 50vh;
+}
+.Nama{
+    position: absolute;
+    display: flex;
+    align-self: center;
+    font-size: 7vh;
+    top: 5vh;
+}
+.Kelas{
+    position: absolute;
+    display: flex;
+    align-self: center;
+    font-size: 7vh;
+    top: 15vh;
+}
+.Medsos{
+    position: absolute;
+    display: flex;
+    align-self: center;
+    top: 33vh;
+}
+.Medsos a{
+    font-size: 5vh;
+    margin: 20px;
+}
+.Medsos a:hover{
+    transform: rotate(-20deg);
+    scale: 120%;
+}
