@@ -60,9 +60,66 @@ a img.Text{
     width: 25vh;
     transition: all 0.25s ease;
     display: block;
+    animation: breathe 2s ease-in-out infinite;
 }
 img.Text:hover{
     scale: 110%;
+}
+@keyframes breathe {
+    0%{
+        transform: scale(100%);
+    }
+    50%{
+        transform: scale(110%);
+    }
+    100%{
+        transform: scale(100%);
+    }
+} 
+@keyframes shake {
+    0%{
+        transform: rotate(0deg);
+    }
+    50%{
+        transform: rotate(2deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+    
+}
+@keyframes shakestarter {
+    0%{
+        transform: rotate(-20deg);
+    }
+    50%{
+        transform: rotate(-10deg);
+    }
+    100%{
+        transform: rotate(-20deg);
+    }
+}
+@keyframes shakebeer {
+    0%{
+        transform: rotate(5deg);
+    }
+    50%{
+        transform: rotate(10deg);
+    }
+    100%{
+        transform: rotate(5deg);
+    }
+}
+@keyframes shakewheel {
+    0%{
+        transform: rotate(0deg);
+    }
+    50%{
+        transform: rotate(10deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
 }
 section.Home{
     background-image: url(bg1.png);
@@ -96,6 +153,7 @@ div.imgsukuna{
 }
 img.Cursed{
     height: 60vh;
+    animation: shake 2s ease-in-out infinite;
 }
 div.Stand{
     position: relative;
@@ -107,6 +165,7 @@ a img.Stand{
     width: 40vh;
     transition: all 0.25s ease;
     display: block;
+    animation: breathe 2s ease-in-out infinite;
 }
 img.Stand:hover{
     scale: 110%;
@@ -209,6 +268,7 @@ img.Ing_Text{
     position: absolute;
     bottom: 164vh;
     left: 1vh;
+    animation: breathe 2s ease-in-out infinite;
 }
 .pic_starter{
     width: 90vh;
@@ -219,6 +279,7 @@ img.Starter{
     bottom: 160vh;
     left: 108vh;
     transform: rotate(340deg);
+    animation: shakestarter 2s ease-in-out infinite;
 }
 .pic_beer{
     width: 90vh;
@@ -229,6 +290,7 @@ img.beer{
     bottom: 110vh;
     left: 184vh;
     transform: rotate(5deg);
+    animation: shakebeer 3s ease-in-out infinite;
 }
 img.Muka{
     width: 50vh;
@@ -241,7 +303,7 @@ img.Muka{
     border: 3px solid black;
     z-index: 1;
     transform: rotate(5deg);
-    transition: all 0.25s ease;
+    transition: all 2s ease;
 }
 img.Wheel{
     width: 50vh;
@@ -250,15 +312,11 @@ img.Wheel{
     justify-self: flex-end;
     right: 20vh;
     top: 16vh;
-    transition: all 0.25s ease;
+    animation: shakewheel 2s ease-in-out infinite;
 }
 img.Muka:hover{
     scale: 110%;
     transform: rotate(10deg);
-}
-img.Wheel:hover{
-    scale: 110%;
-    transform: rotateZ(10deg);
 }
 div.socials{
     font-family: "Nightwatcher BB";
